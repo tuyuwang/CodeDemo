@@ -1,0 +1,176 @@
+{
+    "data": [
+        [
+            {
+                "cellClass": "AvatarSettingCell",
+                "responseSelector": "avatar",
+                "model": {
+                    "modelClass": "AvatarSettingModel",
+                    "title": "青藏澳元",
+                    "subtitle": "账号名：酱鸭做吗",
+                    "avatar": "https://img.touxiangkong.com/uploads/allimg/2022021820/awmxjquxevq.jpg"
+                }
+            },
+            {
+                "cellClass": "SampleSettingCell",
+                "responseSelector": "address",
+                "model": {
+                    "modelClass": "SampleSettingModel",
+                    "title": "我的收获地址",
+                    "hideAccessory": false,
+                    "accessoryTitle": ""
+                }
+            },
+            {
+                "cellClass": "SampleSettingCell",
+                "responseSelector": "myProfile",
+                "model": {
+                    "modelClass": "SampleSettingModel",
+                    "title": "我的档案",
+                    "hideAccessory": false,
+                    "accessoryTitle": "添加档案，获得精准推荐"
+                }
+            }
+        ],
+        [
+            {
+                "cellClass": "SampleSettingCell",
+                "responseSelector": "account",
+                "model": {
+                    "modelClass": "SampleSettingModel",
+                    "title": "账号与安全",
+                    "hideAccessory": false,
+                    "accessoryTitle": ""
+                }
+            },
+            {
+                "cellClass": "SampleSettingCell",
+                "responseSelector": "pay",
+                "model": {
+                    "modelClass": "SampleSettingModel",
+                    "title": "支付",
+                    "hideAccessory": false,
+                    "accessoryTitle": "支付宝账号、免密支付等"
+                }
+            }
+        ],
+        [
+            {
+                "cellClass": "SampleSettingCell",
+                "responseSelector": "messageNoti",
+                "model": {
+                    "modelClass": "SampleSettingModel",
+                    "title": "消息通知",
+                    "hideAccessory": false,
+                    "accessoryTitle": ""
+                }
+            },
+            {
+                "cellClass": "SampleSettingCell",
+                "responseSelector": "themeSkinChanging",
+                "model": {
+                    "modelClass": "SampleSettingModel",
+                    "title": "主题换肤",
+                    "hideAccessory": false,
+                    "accessoryTitle": ""
+                }
+            },
+            {
+                "cellClass": "SampleSettingCell",
+                "responseSelector": "changeIcon",
+                "model": {
+                    "modelClass": "SampleSettingModel",
+                    "title": "图标切换",
+                    "hideAccessory": false,
+                    "accessoryTitle": "默认88/VIP"
+                }
+            },
+            {
+                "cellClass": "SampleSettingCell",
+                "responseSelector": "modeChange",
+                "model": {
+                    "modelClass": "SampleSettingModel",
+                    "title": "模式切换",
+                    "hideAccessory": false,
+                    "accessoryTitle": "标准/长辈模式"
+                }
+            },
+            {
+                "cellClass": "SampleSettingCell",
+                "responseSelector": "privacy",
+                "model": {
+                    "modelClass": "SampleSettingModel",
+                    "title": "隐私",
+                    "hideAccessory": false,
+                    "accessoryTitle": ""
+                }
+            },
+            {
+                "cellClass": "SampleSettingCell",
+                "responseSelector": "currency",
+                "model": {
+                    "modelClass": "SampleSettingModel",
+                    "title": "通用",
+                    "hideAccessory": false,
+                    "accessoryTitle": "地区、音效、辅助等功能"
+                }
+            }
+        ],
+        [
+            {
+                "cellClass": "SampleSettingCell",
+                "responseSelector": "help",
+                "model": {
+                    "modelClass": "SampleSettingModel",
+                    "title": "帮助与反馈",
+                    "hideAccessory": false,
+                    "accessoryTitle": ""
+                }
+            },
+            {
+                "cellClass": "SampleSettingCell",
+                "responseSelector": "about",
+                "model": {
+                    "modelClass": "SampleSettingModel",
+                    "title": "关于淘宝",
+                    "hideAccessory": false,
+                    "accessoryTitle": ""
+                }
+            }
+        ],
+        [
+            {
+                "cellClass": "SampleSettingCell",
+                "responseSelector": "merchantCheckIn",
+                "model": {
+                    "modelClass": "SampleSettingModel",
+                    "title": "商家入住",
+                    "hideAccessory": false,
+                    "accessoryTitle": ""
+                }
+            }
+        ],
+        [
+            {
+                "cellClass": "ExitSettingCell",
+                "responseSelector": "changeAccount",
+                "model": {
+                    "modelClass": "ExitSettingModel",
+                    "title": "切换账号",
+                    "titleColor": ""
+                }
+            }
+        ],
+        [
+            {
+                "cellClass": "ExitSettingCell",
+                "responseSelector": "logout",
+                "model": {
+                    "modelClass": "ExitSettingModel",
+                    "title": "退出登录",
+                    "titleColor": ""
+                }
+            }
+        ]
+    ]
+}
