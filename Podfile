@@ -9,6 +9,7 @@ target 'CodeDemo' do
   pod 'Masonry'
   pod 'SDWebImage', '5.15.8'
   pod 'YYModel'
+  pod 'YYText'
   
   target 'CodeDemoTests' do
     inherit! :search_paths

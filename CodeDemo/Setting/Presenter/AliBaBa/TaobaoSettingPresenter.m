@@ -8,8 +8,10 @@
 #import "TaobaoSettingPresenter.h"
 #import "SettingModel+Constructor.h"
 #import "SettingJsonModel.h"
+#import "ProtocolSettingCell.h"
 
 @import YYModel;
+@import WebKit;
 
 @interface TaobaoSettingPresenter ()
 
@@ -113,6 +115,10 @@
     NSLog(@"logout");
 }
 
+- (void)cell:(UITableViewCell *)cell didSelected:(NSIndexPath *)indexPath parameters:(id)parameters {
+    NSLog(@"open link: %@", parameters);
+}
+
 #pragma mark - Private
 
 - (NSArray<NSArray<id<SettingModelProtocol>> *> *)getDataSourceFromCode {
@@ -139,6 +145,8 @@
         @[[SettingModel sampleCell:@"商家入住" selector:@selector(merchantCheckIn)]],
         
         @[[SettingModel exitCell:@"切换账号" selector:@selector(changeAccount)]],
+        
+        @[[SettingModel exitCell:@"退出登录" selector:@selector(logout)]],
         
         @[[SettingModel exitCell:@"退出登录" selector:@selector(logout)]]
     ];

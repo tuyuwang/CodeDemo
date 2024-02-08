@@ -171,6 +171,48 @@
                     "titleColor": ""
                 }
             }
+        ],
+        [
+            {
+                "cellClass": "ProtocolSettingCell",
+                "responseSelector": "",
+                "model": {
+                    "modelClass": "ProtocolSettingModel",
+                    "titleColor": "",
+                    "list": [
+                        {
+                            "title": "《个人信息共享清单》",
+                            "titleColor": "",
+                            "link": "https://www.baidu.com"
+                        },
+                        {
+                            "title": "《个人信息收集清单》",
+                            "titleColor": "",
+                            "link": "https://www.taobao.com"
+                        },
+                        {
+                            "title": "《证照信息》",
+                            "titleColor": "",
+                            "link": "https://www.tianmao.com"
+                        },
+                        {
+                            "title": "《淘宝规则》",
+                            "titleColor": "",
+                            "link": "https://www.baidu.com"
+                        },
+                        {
+                            "title": "《淘宝平台服务协议》",
+                            "titleColor": "",
+                            "link": "https://www.baidu.com"
+                        },
+                        {
+                            "title": "《天猫规则》",
+                            "titleColor": "",
+                            "link": "https://www.baidu.com"
+                        }
+                    ]
+                }
+            }
         ]
     ]
 }

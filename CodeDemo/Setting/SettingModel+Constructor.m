@@ -10,6 +10,7 @@
 #import "SwitchSettingCell.h"
 #import "ExitSettingCell.h"
 #import "AvatarSettingCell.h"
+#import "ProtocolSettingCell.h"
 
 @implementation SettingModel (Constructor)
 
