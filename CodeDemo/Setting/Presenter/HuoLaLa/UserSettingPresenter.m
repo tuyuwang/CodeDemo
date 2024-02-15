@@ -36,8 +36,7 @@
         
         @[[SettingModel sampleCell:@"收费标准" selector:@selector(feeStandards)],
           [SettingModel sampleCell:@"货拉拉法律条款" selector:@selector(legalProvisions)],
-          [SettingModel sampleCell:@"关于货拉拉" accessory:@"发现新版本" selector:@selector(newVersion)],
-          [SettingModel sampleCell:@"环境选择" accessory:@"pre" selector:@selector(selectEnv)]],
+          [SettingModel sampleCell:@"关于货拉拉" accessory:@"发现新版本" selector:@selector(newVersion)]],
         
         @[[SettingModel exitCell:@"退出登录" color:color selector:@selector(logout)]]
     ];
@@ -98,10 +97,6 @@
 
 - (void)legalProvisions {
     NSLog(@"legalProvisions");
-}
-
-- (void)selectEnv {
-    NSLog(@"selectEnv");
 }
 
 - (void)newVersion {

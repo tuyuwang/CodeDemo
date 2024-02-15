@@ -37,8 +37,7 @@
         @[[SettingModel sampleCell:@"账号与隐私" selector:@selector(accountPrivacy)],
           [SettingModel sampleCell:@"个人信息收集清单" selector:@selector(infoList)],
           [SettingModel sampleCell:@"第三方SDK目录" selector:@selector(otherFramework)],
-          [SettingModel sampleCell:@"第三方共享清单" selector:@selector(otherShare)],
-          [SettingModel sampleCell:@"环境选择" accessory:@"pre" selector:@selector(selectEnv)]],
+          [SettingModel sampleCell:@"第三方共享清单" selector:@selector(otherShare)]],
         
         @[[SettingModel exitCell:@"退出登录" selector:@selector(logout)]]
     ];
@@ -99,10 +98,6 @@
 
 - (void)otherShare {
     NSLog(@"otherShare");
-}
-
-- (void)selectEnv {
-    NSLog(@"selectEnv");
 }
 
 - (void)logout {

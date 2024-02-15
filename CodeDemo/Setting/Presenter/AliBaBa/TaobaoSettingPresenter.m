@@ -146,8 +146,6 @@
         
         @[[SettingModel exitCell:@"切换账号" selector:@selector(changeAccount)]],
         
-        @[[SettingModel exitCell:@"退出登录" selector:@selector(logout)]],
-        
         @[[SettingModel exitCell:@"退出登录" selector:@selector(logout)]]
     ];
 }
